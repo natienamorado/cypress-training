@@ -1,0 +1,25 @@
+{
+  "name": "cypress-training",
+  "version": "1.0.0",
+  "description": "this is a workshop about cypress",
+  "main": "index.js",
+  "scripts": {
+    "test": "cypress open"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/natienamorado/cypress-training.git"
+  },
+  "keywords": [
+    "ui-testing",
+    "dojo",
+    "practice",
+    "cypress"
+  ],
+  "author": "[Natalia Perez] <[natalia.perez@perficient.com]> ([natienamorado])",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/natienamorado/cypress-training/issues"
+  },
+  "homepage": "https://github.com/natienamorado/cypress-training#readme"
+}
