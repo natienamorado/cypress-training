@@ -3,13 +3,11 @@
   "version": "1.0.0",
   "description": "this is a workshop about cypress",
   "main": "index.js",
- 
   "scripts": {
-    
     "test:open": "cypress open",
-    "test": "cypress run"
-    
-
+    "test": "cypress run",
+    "lint": "eslint ./cypress/integration/**/*.ts",
+    "lint:fix": "npm run lint -- --fix"
   },
   "repository": {
     "type": "git",
